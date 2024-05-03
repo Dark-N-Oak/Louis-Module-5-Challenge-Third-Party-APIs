@@ -9,8 +9,21 @@ body {
 
 .task-card {
   margin: 0 auto;
+  border-radius: 10px;
+}
+
+.task-card .card-header {
+  border-radius: 10px 10px 0 0;
 }
 
 .task-card:hover {
   cursor: grab;
+}
+
+.bg-red {
+  background-color: lightcoral !important;
+}
+
+.bg-yellow {
+  background-color: gold !important;
 }
